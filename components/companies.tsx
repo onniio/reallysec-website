@@ -21,14 +21,14 @@ export const Companies = () => {
         src: "/logos/google.webp",
       },
       {
-        title: "biance",
-        src: "/logos/biance.png",
+        title: "Microsoft",
+        src: "/logos/microsoft.png",
       },
     ],
     [
       {
-        title: "oracle",
-        src: "/logos/oraclepng.png",
+        title: "binance",
+        src: "/logos/biance.png",
       },
       {
         title: "netflix",
@@ -39,8 +39,8 @@ export const Companies = () => {
         src: "/logos/NTT_company_logo.svg.png",
       },
       {
-        title: "azure",
-        src: "/logos/azure.png",
+        title: "paloalto",
+        src: "/logos/paloalto.png",
       },
     ],
   ]);
@@ -69,10 +69,11 @@ export const Companies = () => {
     <div className="relative z-20 py-10 md:py-40">
       <Heading as="h2">受到众多客户的信赖</Heading>
       <Subheading className="text-center ">
-        我们的服务一直是众多世界500强企业共同选择。
+        我们的服务一直是众多世界500强企业共同选择
       </Subheading>
 
-      <div className="flex gap-10 flex-wrap justify-center md:gap-40 relative h-full w-full mt-20">
+      {/* 改进的容器样式 - 增加间距 */}
+      <div className="flex gap-12 md:gap-20 flex-wrap justify-center items-center relative h-full w-full mt-20">
         <AnimatePresence
           mode="popLayout"
           onExitComplete={() => {
@@ -104,13 +105,18 @@ export const Companies = () => {
               key={logo.title}
               className="relative"
             >
-              <Image
-                src={logo.src}
-                alt={logo.title}
-                width="100"
-                height="100"
-                className="md:h-20 md:w-40 h-10 w-20 object-contain filter"
-              />
+              {/* 统一的logo容器 - 增大尺寸并拉长 */}
+              <div className="w-36 h-16 md:w-48 md:h-20 flex items-center justify-center bg-white/50 dark:bg-neutral-800/50 rounded-lg p-4 backdrop-blur-sm border border-neutral-200/20 dark:border-neutral-700/20">
+                <Image
+                  src={logo.src}
+                  alt={logo.title}
+                  width="140"
+                  height="70"
+                  className={`max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 ${
+                    logo.title === "oracle" || logo.title === "Microsoft" || logo.title === "binance" || logo.title === "paloalto" ? "scale-150" : ""
+                  }`}
+                />
+              </div>
             </motion.div>
           ))}
         </AnimatePresence>

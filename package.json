@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "if exist .next rmdir /s /q .next",
+    "clean:cache": "if exist .next rmdir /s /q .next && if exist node_modules\\.cache rmdir /s /q node_modules\\.cache",
+    "clean:all": "if exist .next rmdir /s /q .next && if exist node_modules rmdir /s /q node_modules",
+    "fresh:dev": "npm run clean && npm run dev",
+    "fresh:build": "npm run clean && npm run build",
+    "reinstall": "npm run clean:all && npm install"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
@@ -23,6 +29,7 @@
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "date-fns": "^3.6.0",
+    "dotted-map": "^2.2.3",
     "fast-glob": "^3.3.2",
     "framer-motion": "^11.2.9",
     "geist": "^1.4.2",
@@ -49,6 +56,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
+    "rimraf": "^6.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
