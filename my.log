@@ -1,0 +1,279 @@
+nohup: ignoring input
+
+> nextjs@0.1.0 dev
+> next dev --port 8082
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:8082
+
+ ✓ Starting...
+   automatically enabled Fast Refresh for 1 custom loader
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+ ✓ Compiled / in 4.5s (1297 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ ✓ Compiled in 1163ms (632 modules)
+ GET / 200 in 2148ms
+ GET / 200 in 296ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 744ms (1285 modules)
+ POST /xmlrpc.php 404 in 858ms
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 374ms
+ GET / 200 in 285ms
+ GET / 200 in 322ms
+ ✓ Compiled in 1101ms (1297 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 389ms
+ ○ Compiling /signup ...
+ ✓ Compiled /signup in 1546ms (1339 modules)
+Warning: Invalid DOM property `stop-color`. Did you mean `stopColor`?
+    at stop
+    at linearGradient
+    at defs
+    at svg
+    at HorizontalGradient (webpack-internal:///(ssr)/./components/horizontal-gradient.tsx:13:31)
+    at Lazy
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:346:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:366:11)
+    at Lazy
+    at O (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:17:48)
+    at ThemeProvider (webpack-internal:///(ssr)/./context/theme-provider.tsx:13:26)
+    at Lazy
+    at body
+    at html
+    at ViewTransitions (webpack-internal:///(ssr)/./node_modules/next-view-transitions/dist/index.js:73:28)
+    at Lazy
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:556:13)
+    at Lazy
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at ServerInsertedHTMLProvider (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24131)
+Warning: Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
+    at stop
+    at linearGradient
+    at defs
+    at svg
+    at HorizontalGradient (webpack-internal:///(ssr)/./components/horizontal-gradient.tsx:13:31)
+    at Lazy
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:346:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:366:11)
+    at Lazy
+    at O (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:17:48)
+    at ThemeProvider (webpack-internal:///(ssr)/./context/theme-provider.tsx:13:26)
+    at Lazy
+    at body
+    at html
+    at ViewTransitions (webpack-internal:///(ssr)/./node_modules/next-view-transitions/dist/index.js:73:28)
+    at Lazy
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:556:13)
+    at Lazy
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at ServerInsertedHTMLProvider (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24131)
+ GET /signup 200 in 1773ms
+ ✓ Compiled in 866ms (1354 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 362ms
+ ✓ Compiled in 729ms (1354 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 332ms
+ GET / 200 in 450ms
+ ✓ Compiled in 1079ms (1322 modules)
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 3.7s (1498 modules)
+Image with src "https://images.unsplash.com/photo-1696429175928-793a1cdef1d3?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/_next/static/media/thumbnail.ff6badda.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET /blog 200 in 4100ms
+ ✓ Compiled in 1262ms (1513 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 483ms
+ GET / 200 in 245ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1248ms (1501 modules)
+ POST /xmlrpc.php 404 in 1333ms
+ ✓ Compiled in 813ms (1516 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 360ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2.3s (1532 modules)
+Warning: Invalid DOM property `stop-color`. Did you mean `stopColor`?
+    at stop
+    at linearGradient
+    at defs
+    at svg
+    at HorizontalGradient (webpack-internal:///(ssr)/./components/horizontal-gradient.tsx:13:31)
+    at Lazy
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:346:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:366:11)
+    at Lazy
+    at O (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:17:48)
+    at ThemeProvider (webpack-internal:///(ssr)/./context/theme-provider.tsx:13:26)
+    at Lazy
+    at body
+    at html
+    at ViewTransitions (webpack-internal:///(ssr)/./node_modules/next-view-transitions/dist/index.js:73:28)
+    at Lazy
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:556:13)
+    at Lazy
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at ServerInsertedHTMLProvider (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24131)
+Warning: Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
+    at stop
+    at linearGradient
+    at defs
+    at svg
+    at HorizontalGradient (webpack-internal:///(ssr)/./components/horizontal-gradient.tsx:13:31)
+    at Lazy
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:346:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:366:11)
+    at Lazy
+    at O (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/./node_modules/next-themes/dist/index.mjs:17:48)
+    at ThemeProvider (webpack-internal:///(ssr)/./context/theme-provider.tsx:13:26)
+    at Lazy
+    at body
+    at html
+    at ViewTransitions (webpack-internal:///(ssr)/./node_modules/next-view-transitions/dist/index.js:73:28)
+    at Lazy
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:556:13)
+    at Lazy
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at r1 (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:18701)
+    at ServerInsertedHTMLProvider (/home/reallysec/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24131)
+ GET /login 200 in 2671ms
+ ✓ Compiled in 983ms (1547 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 405ms
+ ✓ Compiled in 1296ms (1515 modules)
+ ✓ Compiled in 1913ms (1500 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 495ms
+ GET / 200 in 252ms
+ GET / 200 in 313ms
+ ✓ Compiled in 1267ms (1515 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 457ms
+ ✓ Compiled in 1283ms (1515 modules)
+ ✓ Compiled in 1177ms (1515 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 508ms
+ GET / 200 in 275ms
+ ○ Compiling /blog/changelog-for-2024 ...
+ ✓ Compiled /blog/changelog-for-2024 in 1251ms (1503 modules)
+ GET /blog/changelog-for-2024 200 in 1372ms
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 362ms
+ GET / 200 in 424ms
+ GET / 200 in 286ms
+ ✓ Compiled in 1422ms (1516 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 606ms
+ GET / 200 in 304ms
+ ✓ Compiled in 1348ms (1516 modules)
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 651ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 841ms (1504 modules)
+ POST /xmlrpc.php 404 in 908ms
+Image with src "/skeleton-one.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+Image with src "/tyler.jpeg" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+ GET / 200 in 427ms
+ GET / 200 in 273ms
