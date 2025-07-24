@@ -3,7 +3,7 @@ import { Heading } from "./heading";
 import { Subheading } from "./subheading";
 import { cn } from "@/lib/utils";
 import { GridLineHorizontal, GridLineVertical } from "./grid-lines";
-import { SkeletonOne } from "./skeletons/first";
+import { SkeletonOne as NewSkeletonOne } from "./skeletons/new-skeleton-one"; // 新的SkeletonOne
 import { SkeletonTwo } from "./skeletons/second";
 import { SkeletonFour } from "./skeletons/fourth";
 import { SkeletonThree } from "./skeletons/third";
@@ -11,10 +11,10 @@ import { SkeletonThree } from "./skeletons/third";
 export const Features = () => {
   const features = [
     {
-      title: "识别并修复整个企业中的关键漏洞",
+      title: "基于平台行为模型构建定向采集与策略协同机制",
       description:
-        "通过与您的团队密切合作，并应用我们在各行各业的丰富经验，我们可以更好地了解您的组织面临的挑战。您可以依靠我们的安全专家来减轻安全管理负担并提供您所需的结果。",
-      skeleton: <SkeletonOne />,
+        "我们不只是简单接入日志，而是针对各平台（Splunk CIM、ELK ECS、Sentinel Schema、QRadar DSM）构建行为语义模型，按攻击战术定向采集，自动映射到对应平台规则库，实现数据接入即服务于威胁检测。",
+      skeleton: <NewSkeletonOne />,
       className:
         "col-span-1 md:col-span-4 border-b border-r dark:border-neutral-800",
     },
@@ -116,7 +116,7 @@ const FeatureTitle = ({ children }: { children?: React.ReactNode }) => {
 
 const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
   return (
-    <Subheading className="text-left max-w-sm mx-0 md:text-sm my-2">
+    <Subheading className="text-left max-w-full mx-0 md:text-sm my-2">
       {children}
     </Subheading>
   );

@@ -37,10 +37,6 @@ export const SkeletonTwo = () => {
             为什么我们公司需要托管安全服务? 
             </UserMessage>
             <AIMessage>与 Reallysec 专家团队协作，能够有效分担企业在 IT 基础设施安全方面的技术压力与责任。我们提供全天候监控、入侵检测、威胁响应与合规支持，帮助企业在快速演进的威胁环境中始终保持领先，防患于未然。</AIMessage>
-            <UserMessage>
-            安全托管服务有哪些优势?
-            </UserMessage>
-            <AIMessage>定期评估您的安全性、大多数公司无法独立完成的 24×7 防御动作，保护措施会随您的业务变化和发展而进行扩展和调整。</AIMessage>
             <UserMessage>安全托管服务可以检测哪些类型的威胁?</UserMessage>
             <AIMessage>Reallysec的安全托管服务可以检测各种网络安全威胁，包括恶意软件、勒索软件、网络钓鱼攻击和高级持续性威胁 （APT），确保全面保护。</AIMessage>
             <AIMessage>
