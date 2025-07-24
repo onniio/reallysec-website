@@ -11,41 +11,40 @@ import { SkeletonThree } from "./skeletons/third";
 export const Features = () => {
   const features = [
     {
-      title: "Generate images with text",
+      title: "识别并修复整个企业中的关键漏洞",
       description:
-        "Generate images from a text prompt, a video, or a video segment in bulk at the speed of light.",
+        "通过与您的团队密切合作，并应用我们在各行各业的丰富经验，我们可以更好地了解您的组织面临的挑战。您可以依靠我们的安全专家来减轻安全管理负担并提供您所需的结果。",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 md:col-span-4 border-b border-r dark:border-neutral-800",
     },
     {
-      title: "Create stupid simple chatbots",
+      title: "我们如何保护您的安全",
       description:
-        "Create Chatbots with a single button click. Customize as per your requirements and the AI will take care of the rest.",
+        "通过全面托管的安全运营中心（SOC），整合AI检测、行为分析与专家响应，为企业提供横跨终端、网络、云环境的全天候防护体系。",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 md:col-span-2 dark:border-neutral-800",
     },
     {
-      title: "We support every single LLM",
+      title: "Reallysecer LLM 工单系统",
       description:
-        "Whether it's OpenAI, GroQ or Your Mom's Basement LLM, we support everything.",
+        "深度集成主流SIEM与安全运营中心，系统具备端到端的自适应闭环处理能力，显著提升工单处理效率与响应准确率。",
       skeleton: <SkeletonThree />,
       className: "col-span-1 md:col-span-3 border-r dark:border-neutral-800",
     },
     {
-      title: "Deploy in seconds",
+      title: "客户案例",
       description:
-        "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+        "我们因提供符合行业最高标准的高质量、全面服务而享有盛誉，这意味着与客户合作设计满足其独特需求的解决方案。",
       skeleton: <SkeletonFour />,
       className: "col-span-1 md:col-span-3",
     },
   ];
   return (
     <div className="relative z-20 py-10 md:py-40">
-      <Heading as="h2">Packed with thousands of features</Heading>
+      <Heading as="h2">抵御网络威胁需了解攻击者的运作方式</Heading>
       <Subheading className="text-center ">
-        From Image generation to video generation, Everything AI has APIs for
-        literally everything. It can even create this website copy for you.
+      我们在世界各地进行渗透测试、红队和其他道德黑客活动方面拥有丰富的经验，这意味着我们拥有最新的对抗性策略的第一手资料，并对如何防范这些策略有广泛的见解。
       </Subheading>
 
       <div className="relative">

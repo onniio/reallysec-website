@@ -12,8 +12,7 @@ export const Testimonials = () => {
     <div className="relative z-20 py-10 md:py-40">
       <Heading as="h2">客户的认可是我们最大动力</Heading>
       <Subheading className="text-center max-w-lg mx-auto">
-        Every AI is used by millions of people around the globe.Our APIs have
-        fan bases and people fight for us over twitter.
+      在客户眼中，我们不仅是服务提供商，更是并肩作战、值得依赖的安全服务合作伙伴。
       </Subheading>
       <TestimonialGrid />
     </div>

@@ -13,48 +13,48 @@ import {
 export const GridFeatures = () => {
   const features = [
     {
-      title: "Built for developers",
+      title: "全面威胁检测能力",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
+        "全生命周期覆盖APT攻击/0day/勒索病毒/内网横向等全谱系攻击行为,精准告警不误判.",
       icon: <IconTerminal2 />,
     },
     {
-      title: "Ease of use",
+      title: "分钟级应急响应机制",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
+        "发现即响应，7x24不间断威胁联动联防,缩短MDR闭环处置平均响应时间.",
       icon: <IconEaseInOut />,
     },
     {
-      title: "Pricing like no other",
+      title: "跨平台系统兼容集成",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "支持与主流SIEM、EDR、XDR、SOAR系统无缝对接,统一视图集中管理.",
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
+      title: "原生合规内核设计",
+      description: "满足ISO 27001、等保3.0、GDPR、SOC2等监管要求,合规内建可审计.",
       icon: <IconCloud />,
     },
     {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
+      title: "AI驱动安全自动化运营",
+      description: "结合LLM与行为模型实现工单分派/威胁优先级排序/回溯分析等全流程自动化.",
       icon: <IconRouteAltLeft />,
     },
     {
-      title: "24/7 Customer Support",
+      title: "威胁情报实时联动",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "自建全球威胁情报源（CTI）/IOC同步与溯源分析,实现主动防御.",
       icon: <IconHelp />,
     },
     {
-      title: "Money back guarantee",
+      title: "行为分析引擎自适应学习",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "通过机器学习与安全上下文,动态调整策略与检测规则,持续进化对抗模型.",
       icon: <IconAdjustmentsBolt />,
     },
     {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      title: "全球节点支援能力",
+      description: "支持跨地域SOC部署与就地响应,保障跨境业务环境中同样高效与合规.",
       icon: <IconHeart />,
     },
   ];
