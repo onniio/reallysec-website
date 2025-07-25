@@ -1,0 +1,87 @@
+import { BlogLayout } from "@/components/blog-layout";
+
+
+export const blog = {
+  author: { name: "Jason Yuan", src: "/jason.png" },
+  date: "2021-07-14",
+  title: "Reallysec 助力 Adobe 打造 AI 驱动的图像搜索与识别系统",
+    image:
+    "/adobe_post.png",
+  description:
+    "ReallySec 与 Adobe 正在联合探索一系列变革性人工智能工具与应用，全面覆盖从图像生成到自然语言处理的多个领域。这些 AI 技术不仅重塑了内容创作、搜索与管理的流程，也正在深刻改变企业与用户之间的交互方式，加速推动制造、创意、文档管理等关键行业的智能化升级。",
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## Adobe 的核心产品与云服务体系
+
+全球知名的软件巨头 [Adobe](https://www.adobe.com/)，以其旗舰产品 Photoshop、Illustrator 和 Acrobat 闻名。这些核心应用被整合进 Adobe 的云服务体系，包括：
+
+* **Creative Cloud（创意云）**
+* **Document Cloud（文档云）**
+* **Experience Cloud（体验云）**
+
+这些云平台中，尤其是图像搜索至关重要的产品（如 Adobe Stock），都在后台广泛采用 **Elasticsearch** 技术以支撑其高性能的内容检索能力。
+
+> Elasticsearch 的弹性与稳定性非常高……并且它在开源特性与严格审查机制之间取得了良好的平衡。
+
+---
+
+## Adobe + Elasticsearch 的搜索生态格局
+
+Adobe 当前自主运维的 Elastic Stack 架构包括：
+
+* **18 个生产集群**
+* **托管超过 100 亿份文档**
+* **实时写入速率约为每秒 6000 个文档**
+
+以 Adobe Lightroom 为例，为更好地支持图像搜索体验，Adobe 将系统从 Amazon Elasticsearch Service 迁移至自建的 Elasticsearch 集群，并迁移了近 **35 亿份文档**。
+
+Adobe 的内容类型多以非结构化数据为主，包括图像、视频、Photoshop 文件等，同时也包含大量结构化文档，特别是 PDF 格式。在此背景下，Elastic Stack 结合 Adobe 自研的 Elasticsearch 插件，有效支持了以下多样化的内容搜索场景：
+
+* 基于计算机视觉与元数据的智能搜索
+* 深度文本与混合内容搜索
+* 视频及富媒体格式搜索
+* 企业级文档检索
+* 内容发现与个性化推荐
+
+---
+
+## 结合 Adobe Sensei 与 Elasticsearch 的机器学习应用
+
+Adobe Sensei 的 AI 与机器学习技术承担了图像搜索模型训练的核心任务。为配合 Sensei，Adobe 开发了多个专用 Elasticsearch 插件：
+
+* **相似度插件**（Similarity Plugin）
+* **搜索排序插件**（Ranking Plugin）
+
+这些插件增强了 Adobe 在图像识别和相似图像查找方面的能力，提供了如下实时搜索功能：
+
+* 人脸检测（Face Detection）
+* 物体识别（Object Detection）
+* 人脸聚类（Face Clustering）
+* 自动标签（Auto Tagging）
+* 命名实体识别（Named Entity Recognition）
+
+### Adobe Stock 的机器学习图像搜索示例
+
+Adobe Stock 是 Adobe 图像搜索能力的代表平台，其内容库包含超过 **1.3 亿张图像资产**。Adobe Stock 展现出以下特性：
+
+* **强大的图像检索能力**：可根据关键词、属性等信息进行精准检索
+* **便捷的图像筛选与排序功能**：通过内容、颜色、构图等属性进行相似图像查找
+* **高级过滤维度**：支持按价格、标签、类型等字段进行索引与筛选
+
+---
+
+## 深度学习模型与 Elasticsearch 的协同工作
+
+Adobe Stock 背后的图像搜索技术，基于深度训练的机器学习模型与 Elasticsearch 数据存储系统协同运作。这些模型采用 **卷积神经网络（CNN）** 来学习图像的深度特征表达（embeddings），并将这些特征映射为欧几里得距离空间中的相似度指标，用于建立图像及属性的聚类关系。
+
+在此基础上，Adobe 还引入了大量额外的机器学习技术，使得整个系统智能度极高，为用户带来既美观又高效的图像搜索体验。
