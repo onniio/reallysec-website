@@ -8,6 +8,7 @@ import Image from "next/image";
 import { Logo } from "./Logo";
 import Link from "next/link";
 import { format } from "date-fns";
+
 export function BlogLayout({
   blog,
   children,
@@ -43,7 +44,9 @@ export function BlogLayout({
           </time>
         </div>
       </div>
-      <div className="max-w-4xl mx-auto">
+      
+      {/* 图片容器 - 扩大宽度 */}
+      <div className="max-w-6xl mx-auto">
         {blog.image ? (
           <Image
             src={blog.image}
@@ -53,21 +56,26 @@ export function BlogLayout({
             alt={blog.title}
           />
         ) : (
-          <div className="h-40 md:h-96 w-full aspect-squace rounded-3xl shadow-derek dark:bg-neutral-900 flex items-center justify-center">
+          <div className="h-40 md:h-96 w-full aspect-square rounded-3xl shadow-derek dark:bg-neutral-900 flex items-center justify-center">
             <Logo />
           </div>
         )}
       </div>
+
+      {/* 主要内容区域 */}
       <div className="xl:relative">
-        <div className="mx-auto max-w-2xl">
+        {/* 扩大内容容器宽度 */}
+        <div className="mx-auto max-w-6xl px-4 md:px-8">
           <article className="pb-8">
             <header className="flex flex-col">
-              <h1 className="mt-8 text-4xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 sm:text-5xl ">
+              {/* 标题左对齐，但容器居中 */}
+              <h1 className="mt-8 text-4xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 sm:text-5xl text-left">
                 {blog.title}
               </h1>
             </header>
+            {/* 文章内容 - 移除宽度限制并增大字体，标题左对齐 */}
             <div
-              className="mt-8 prose prose-sm dark:prose-invert"
+              className="mt-8 prose prose-lg dark:prose-invert max-w-none"
               data-mdx-content
             >
               {children}

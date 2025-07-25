@@ -7,9 +7,9 @@ import { Subheading } from "@/components/subheading";
 import { BlogCard } from "@/components/blog-card";
 
 export const metadata: Metadata = {
-  title: "Reallysec - 安全服务",
+  title: "Reallysec - 客户案例",
   description:
-    "Everything AI is a platform that provides a wide range of AI tools and services to help you stay on top of your business. Generate images, text and everything else that you need to get your business off the ground.",
+    "",
   openGraph: {
     images: ["https://ai-saas-template-aceternity.vercel.app/banner.png"],
   },
@@ -23,10 +23,9 @@ export default async function ArticlesIndex() {
       <Background />
       <Container className="flex flex-col items-center justify-between pb-20">
         <div className="relative z-20 py-10 md:pt-40">
-          <Heading as="h1">Blog</Heading>
+          <Heading as="h1">客户案例</Heading>
           <Subheading className="text-center">
-            Discover insightful resources and expert advice from our seasoned
-            team to elevate your knowledge.
+          作为客户可信赖的安全合作伙伴，我们在多个重大项目中与客户的IT、安全团队深度协作，快速响应并高效交付。
           </Subheading>
         </div>
 
