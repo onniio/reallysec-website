@@ -11,5 +11,9 @@ export const metadata: Metadata = {
 };
 
 export default function SignupPage() {
-  return <SignupForm />;
+  return (
+    <div className="absolute inset-0 z-50 bg-white dark:bg-black">
+      <SignupForm />
+    </div>
+  );
 }

@@ -15,7 +15,6 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
-import { IconBrandGithub } from "@tabler/icons-react";
 import Password from "./password";
 import { Button } from "./button";
 import { Logo } from "./Logo";
@@ -53,14 +52,11 @@ export function LoginForm() {
 
   return (
     <Form {...form}>
-      <div className="flex items-center w-full justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
-        <div className="mx-auto w-full max-w-md">
+      <div className="flex items-center justify-center min-h-screen w-full px-4 py-12 bg-white dark:bg-black">
+        <div className="w-full max-w-md">
           <div>
-            <div className="flex">
-              <Logo />
-            </div>
-            <h2 className="mt-8 text-2xl font-bold leading-9 tracking-tight text-black dark:text-white">
-            登录您的Reallysec合作伙伴账户
+            <h2 className="text-2xl font-bold leading-9 tracking-tight text-black dark:text-white text-center">
+              登录您的 Reallysec 合作伙伴账户
             </h2>
           </div>
 
@@ -87,7 +83,7 @@ export function LoginForm() {
                             <input
                               id="email"
                               type="email"
-                              placeholder="hello@johndoe.com"
+                              placeholder="hello@reallysec.com"
                               className="block w-full bg-white dark:bg-neutral-900 px-4 rounded-md border-0 py-1.5  shadow-aceternity text-black placeholder:text-gray-400 focus:ring-2 focus:ring-neutral-400 focus:outline-none sm:text-sm sm:leading-6 dark:text-white"
                               {...field}
                             />
@@ -168,10 +164,12 @@ export function LoginForm() {
               </div>
 
               <div className="mt-6 w-full flex items-center justify-center">
-                <Button onClick={() => {}} className="w-full py-1.5">
-                  <IconBrandGithub className="h-5 w-5" />
+                <Button 
+                  onClick={() => window.open('https://www.blackhat.com/', '_blank')} 
+                  className="w-full py-1.5"
+                >
                   <span className="text-sm font-semibold leading-6">
-                    Blackhat
+                    Blackhat ID
                   </span>
                 </Button>
               </div>

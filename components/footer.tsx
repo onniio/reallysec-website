@@ -5,11 +5,11 @@ import { Logo } from "./Logo";
 export const Footer = () => {
   const links = [
     {
-      name: "解决方案",
+      name: "安全服务",
       href: "/pricing",
     },
     {
-      name: "安全服务",
+      name: "关于我们",
       href: "/blog",
     },
     {
@@ -28,20 +28,7 @@ export const Footer = () => {
     },
 
   ];
-  const socials = [
-    {
-      name: "Twitter",
-      href: "https://twitter.com/mannupaaji",
-    },
-    {
-      name: "LinkedIn",
-      href: "https://linkedin.com/in/manuarora28",
-    },
-    {
-      name: "GitHub",
-      href: "https://github.com/manuarora700",
-    },
-  ];
+
   return (
     <div className="relative">
       <div className="border-t border-neutral-100  dark:border-neutral-800 px-8 pt-20 pb-32 relative bg-white dark:bg-black">
@@ -53,40 +40,30 @@ export const Footer = () => {
             <div>Copyright &copy; 2025 武汉真的安全信息技术有限公司</div>
             <div className="text-right w-full mt-2">鄂ICP备2022016220号-1</div>
           </div>
-          <div className="grid grid-cols-3 gap-10 items-start mt-10 md:mt-0">
-            <div className="flex justify-center space-y-4 flex-col mt-4">
+          <div className="grid grid-cols-2 gap-10 items-start mt-10 md:mt-0 ml-auto">
+            <div className="flex justify-end space-y-4 flex-col mt-4">
               {links.map((link) => (
                 <Link
                   key={link.name}
-                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm"
+                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm text-right"
                   href={link.href}
                 >
                   {link.name}
                 </Link>
               ))}
             </div>
-            <div className="flex justify-center space-y-4 flex-col mt-4">
+            <div className="flex justify-end space-y-4 flex-col mt-4">
               {legal.map((link) => (
                 <Link
                   key={link.name}
-                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm"
+                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm text-right"
                   href={link.href}
                 >
                   {link.name}
                 </Link>
               ))}
             </div>
-            <div className="flex justify-center space-y-4 flex-col mt-4">
-              {socials.map((link) => (
-                <Link
-                  key={link.name}
-                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm"
-                  href={link.href}
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </div>
+
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { Button } from "./button";
 import { HiArrowRight } from "react-icons/hi2";
 import { Badge } from "./badge";
 import { motion } from "framer-motion";
+import { ContainerTextFlip } from "./container-text-flip";
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -12,6 +13,10 @@ import { Link } from "next-view-transitions";
 
 export const Hero = () => {
   const router = useRouter();
+  
+  // 定义要轮播的安全相关词汇
+  const securityWords = ["真的安全", "全面保护", "可靠防护", "智能安全"];
+  
   return (
     <div className="flex flex-col min-h-screen pt-20 md:pt-40 relative overflow-hidden">
       <motion.div
@@ -34,25 +39,32 @@ export const Hero = () => {
         </Badge>
       </motion.div>
       <motion.h1
-  initial={{
-    y: 40,
-    opacity: 0,
-  }}
-  animate={{
-    y: 0,
-    opacity: 1,
-  }}
-  transition={{
-    ease: "easeOut",
-    duration: 0.5,
-  }}
-  className="text-2xl md:text-4xl lg:text-8xl font-semibold max-w-6xl mx-auto text-center mt-6 relative z-10"
->
-  <Balancer>
-    让您的企业<br />
-    实现真的安全
-  </Balancer>
-</motion.h1>
+        initial={{
+          y: 40,
+          opacity: 0,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          ease: "easeOut",
+          duration: 0.5,
+        }}
+        className="text-2xl md:text-4xl lg:text-8xl font-semibold max-w-6xl mx-auto text-center mt-6 relative z-10"
+      >
+        <Balancer>
+          让您的企业<br />
+          实现
+          <ContainerTextFlip 
+            words={securityWords}
+            interval={3000}
+            animationDuration={700}
+            className="mx-2 text-2xl md:text-4xl lg:text-8xl"
+            textClassName="font-semibold"
+          />
+        </Balancer>
+      </motion.h1>
       <motion.p
         initial={{
           y: 40,
