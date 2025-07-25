@@ -17,7 +17,7 @@ export const BlogCard = ({ blog }: { blog: BlogWithSlug }) => {
   return (
     <Link
       className="shadow-derek rounded-3xl border dark:border-neutral-800 w-full bg-white dark:bg-neutral-900 overflow-hidden hover:scale-[1.02] transition duration-200"
-      href={`/blog/${blog.slug}`}
+      href={`/case-studies/${blog.slug}`}
     >
       {/* 始终渲染相同的结构，避免条件渲染导致的不一致 */}
       <div className="h-52 relative overflow-hidden">

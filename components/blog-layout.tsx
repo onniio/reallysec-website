@@ -19,7 +19,7 @@ export function BlogLayout({
   return (
     <Container className="mt-16 lg:mt-32">
       <div className="flex justify-between items-center px-2 py-8">
-        <Link href="/blog" className="flex space-x-2 items-center">
+        <Link href="/case-studies" className="flex space-x-2 items-center">
           <IconArrowLeft className="w-4 h-4 text-muted dark:text-muted-dark" />
           <span className="text-sm text-muted dark:text-muted-dark">Back</span>
         </Link>

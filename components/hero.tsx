@@ -34,7 +34,7 @@ export const Hero = () => {
         }}
         className="flex justify-center"
       >
-        <Badge onClick={() => router.push("/blog/top-5-llm-of-all-time")}>
+        <Badge onClick={() => router.push("/case-studies/top-5-llm-of-all-time")}>
         通过创新与融合提供无与伦比的安全性
         </Badge>
       </motion.div>

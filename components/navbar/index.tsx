@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const navItems = [
   {
     title: "客户案例",
-    link: "/blog",
+    link: "/case-studies",
   },
   {
     title: "关于我们",
