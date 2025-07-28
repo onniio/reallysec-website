@@ -28,6 +28,8 @@ const config: Config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
         marquee: "marquee var(--marquee-duration) linear infinite",
         "fade-in": "fade-in 0.5s linear forwards",
+        // 新增：为expandable card组件添加的动画
+        move: "move 5s linear infinite",
       },
       boxShadow: {
         derek: `0px 0px 0px 1px rgb(0 0 0 / 0.06),
@@ -56,6 +58,11 @@ const config: Config = {
           to: {
             opacity: "1",
           },
+        },
+        // 新增：为expandable card组件添加的keyframe
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
         },
       },
     },

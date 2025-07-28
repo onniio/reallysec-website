@@ -113,7 +113,9 @@ export const Companies = () => {
                   width="140"
                   height="70"
                   className={`max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 ${
-                    logo.title === "oracle" || logo.title === "Microsoft" || logo.title === "binance" || logo.title === "paloalto" ? "scale-150" : ""
+                    logo.title === "Microsoft" ? "scale-[1.75]" : 
+                    logo.title === "ntt" ? "scale-125" :
+                    logo.title === "oracle" || logo.title === "binance" || logo.title === "paloalto" || logo.title === "Cisco" ? "scale-150" : ""
                   }`}
                 />
               </div>

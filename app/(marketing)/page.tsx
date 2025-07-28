@@ -6,6 +6,7 @@ import { Companies } from "@/components/companies";
 import { GridFeatures } from "@/components/grid-features";
 import { Testimonials } from "@/components/testimonials";
 import { CTA } from "@/components/cta";
+import { StatsWithNumberTicker } from "@/components/stats-section"; // 导入你的组件
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Container className="flex min-h-screen flex-col items-center justify-between ">
         <Hero />
         <Companies />
+        {/* 在这里添加统计数据组件 */}
+        <StatsWithNumberTicker />
         <Features />
         <GridFeatures />
         <Testimonials />

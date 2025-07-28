@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     title: "关于我们",
-    link: "/pricing",
+    link: "/about-us",
   },
   {
     title: "联系我们",

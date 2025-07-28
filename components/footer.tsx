@@ -14,7 +14,7 @@ export const Footer = () => {
     },
     {
       name: "关于我们",
-      href: "/blog",
+      href: "/about-us",
     },
     {
       name: "联系我们",
