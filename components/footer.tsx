@@ -9,6 +9,10 @@ export const Footer = () => {
       href: "/case-studies",
     },
     {
+      name: "安全服务",
+      href: "/security-services",
+    },
+    {
       name: "关于我们",
       href: "/blog",
     },

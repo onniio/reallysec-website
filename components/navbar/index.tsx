@@ -9,6 +9,10 @@ const navItems = [
     link: "/case-studies",
   },
   {
+    title: "安全服务", 
+    link: "/security-services",
+  },
+  {
     title: "关于我们",
     link: "/pricing",
   },
