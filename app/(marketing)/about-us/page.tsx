@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const timelineData = [
   {
-    title: "2020",
+    title: "2025",
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -42,7 +42,7 @@ const timelineData = [
     ),
   },
   {
-    title: "2021",
+    title: "2024",
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -68,7 +68,7 @@ const timelineData = [
     ),
   },
   {
-    title: "2022",
+    title: "2023",
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -94,7 +94,7 @@ const timelineData = [
     ),
   },
   {
-    title: "2023",
+    title: "2022",
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -120,7 +120,7 @@ const timelineData = [
     ),
   },
   {
-    title: "2024",
+    title: "2021",
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
