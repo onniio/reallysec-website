@@ -26,6 +26,7 @@ export const BlurImage = ({
   ...rest
 }: IBlurImage) => {
   const [isLoading, setLoading] = useState(true);
+  
   return (
     <Image
       className={clsx(
@@ -33,7 +34,7 @@ export const BlurImage = ({
         isLoading ? "blur-sm scale-105" : "blur-0 scale-100",
         className
       )}
-      onLoadingComplete={() => setLoading(false)}
+      onLoad={() => setLoading(false)} // 修复：使用 onLoad 替代 onLoadingComplete
       src={src}
       width={width}
       height={height}
