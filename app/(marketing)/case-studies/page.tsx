@@ -25,7 +25,7 @@ export default async function ArticlesIndex() {
         <div className="relative z-20 py-10 md:pt-40">
           <Heading as="h1">客户案例</Heading>
           <Subheading className="text-center">
-          作为客户可信赖的安全合作伙伴，我们在多个重大项目中与客户的IT、安全团队深度协作，快速响应并高效交付。
+          Reallysec 在网络安全、可观测性、人工智能、机器学习与预测性分析等多个领域，持续与全球领先企业开展深度协作。我们凭借强大的专家团队与平台化能力，快速响应客户需求，精准适配其业务场景，在关键系统防护、威胁检测、数据智能洞察及运营效率提升等方面实现高效落地与持续价值交付。
           </Subheading>
         </div>
 
