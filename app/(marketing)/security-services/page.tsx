@@ -38,36 +38,35 @@ export default function ServicesPage() {
       link: "#incident-response",
     },
     {
-      title: "应急响应",
-      description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-      link: "#incident-response",
+      title: "威胁情报服务",
+      description: "提供最新的威胁情报和攻击趋势分析，帮助企业提前识别和防范潜在威胁。",
+      link: "#threat-intelligence",
     },
     {
-      title: "应急响应",
-      description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-      link: "#incident-response",
+      title: "代码安全审计",
+      description: "深度代码安全审计服务，发现应用程序中的安全漏洞，提供修复建议。",
+      link: "#code-audit",
     },
     {
-        title: "应急响应",
-        description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-        link: "#incident-response",
-      },
-      {
-        title: "应急响应",
-        description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-        link: "#incident-response",
-      },
-      {
-        title: "应急响应",
-        description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-        link: "#incident-response",
-      },
-      {
-        title: "应急响应",
-        description: "快速响应安全事件，专业的事件处置和恢复服务，最大化降低安全事件影响。",
-        link: "#incident-response",
-      },
-
+      title: "云安全服务",
+      description: "专业的云安全架构设计和配置评估，确保云环境的安全性和合规性。",
+      link: "#cloud-security",
+    },
+    {
+      title: "数据安全保护",
+      description: "数据分类分级、加密保护、数据泄露防护等全生命周期数据安全管理服务。",
+      link: "#data-protection",
+    },
+    {
+      title: "物联网安全",
+      description: "IoT设备安全评估、固件安全审计、物联网网络安全架构设计服务。",
+      link: "#iot-security",
+    },
+    {
+      title: "区块链安全",
+      description: "智能合约安全审计、DeFi协议安全评估、区块链基础设施安全服务。",
+      link: "#blockchain-security",
+    },
   ];
 
   return (
@@ -77,7 +76,7 @@ export default function ServicesPage() {
         <Background />
         <Container className="flex flex-col items-center justify-center">
           <div className="relative z-20 text-center">
-            <Heading as="h1">服务项目</Heading>
+            <Heading as="h1">安全服务</Heading>
             <Subheading className="text-center">
               我们提供全方位的网络安全服务，从安全咨询到技术实施，为您的业务保驾护航
             </Subheading>
@@ -88,15 +87,6 @@ export default function ServicesPage() {
       {/* 服务卡片区域 */}
       <div className="relative bg-white dark:bg-black">
         <Container className="py-20">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-800 dark:text-neutral-200 mb-8">
-              专业安全服务
-            </h2>
-            <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-              基于多年的行业经验，我们为企业提供全方位的网络安全解决方案
-            </p>
-          </div>
-          
           <HoverEffect items={services} />
         </Container>
       </div>
@@ -105,14 +95,6 @@ export default function ServicesPage() {
       <div className="relative">
         <Background />
         <Container className="py-20">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-neutral-800 dark:text-neutral-200 mb-8">
-              更多服务内容
-            </h2>
-            <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-              我们将持续为您提供更多专业的网络安全服务...
-            </p>
-          </div>
         </Container>
       </div>
     </div>

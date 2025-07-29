@@ -5,6 +5,7 @@ import { Container } from "@/components/container";
 import { Heading } from "@/components/heading";
 import { Subheading } from "@/components/subheading";
 import { BlogCard } from "@/components/blog-card";
+import { Companies } from "@/components/companies";
 
 export const metadata: Metadata = {
   title: "Reallysec - 客户案例",
@@ -14,6 +15,8 @@ export const metadata: Metadata = {
     images: ["https://ai-saas-template-aceternity.vercel.app/banner.png"],
   },
 };
+
+
 
 export default async function ArticlesIndex() {
   let blogs = await getAllBlogs();
@@ -35,10 +38,15 @@ export default async function ArticlesIndex() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full relative z-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full relative z-20 mb-20">
           {blogs.slice(2).map((blog, index) => (
             <BlogCard blog={blog} key={blog.title + index} />
           ))}
+        </div>
+
+        {/* 添加客户信赖组件到页面底部 */}
+        <div className="relative z-20 w-full">
+          <Companies />
         </div>
       </Container>
     </div>
