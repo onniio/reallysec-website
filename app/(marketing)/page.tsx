@@ -6,7 +6,7 @@ import { Companies } from "@/components/companies";
 import { GridFeatures } from "@/components/grid-features";
 import { Testimonials } from "@/components/testimonials";
 import { CTA } from "@/components/cta";
-import { StatsWithNumberTicker } from "@/components/stats-section"; // 导入你的组件
+import { StatsWithNumberTicker } from "@/components/stats-section"; // 导入统计组件
 
 export default function Home() {
   return (
@@ -14,14 +14,21 @@ export default function Home() {
       <div className="absolute inset-0 h-full w-full overflow-hidden ">
         <Background />
       </div>
-      <Container className="flex min-h-screen flex-col items-center justify-between ">
-        <Hero />
+      <Container className="flex flex-col items-center">
+        <Hero />      
         <Companies />
-        {/* 在这里添加统计数据组件 */}
-        <StatsWithNumberTicker />
+        <div className="w-full -mt-10 md:-mt-16">
         <Features />
+        </div>
+        <div className="w-full -mt-10 md:-mt-16">
+          <StatsWithNumberTicker />
+        </div>
+        <div className="w-full -mt-10 md:-mt-12">
         <GridFeatures />
+        </div>
+        <div className="w-full -mt-2 md:-mt-30">
         <Testimonials />
+        </div>
       </Container>
       <div className="relative">
         <div className="absolute inset-0 h-full w-full overflow-hidden">

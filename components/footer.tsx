@@ -5,12 +5,12 @@ import { Logo } from "./Logo";
 export const Footer = () => {
   const links = [
     {
-      name: "客户案例",
-      href: "/case-studies",
-    },
-    {
       name: "安全服务",
       href: "/security-services",
+    },
+    {
+      name: "客户案例",
+      href: "/case-studies",
     },
     {
       name: "关于我们",

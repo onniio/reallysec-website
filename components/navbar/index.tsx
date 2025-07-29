@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const navItems = [
   {
-    title: "客户案例",
-    link: "/case-studies",
-  },
-  {
     title: "安全服务", 
     link: "/security-services",
+  },
+  {
+    title: "客户案例",
+    link: "/case-studies",
   },
   {
     title: "关于我们",
