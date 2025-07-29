@@ -1,4 +1,5 @@
 "use client";
+
 import { Background } from "@/components/background";
 import { Container } from "@/components/container";
 import { Heading } from "@/components/heading";
@@ -29,7 +30,7 @@ export default function ServicesPage() {
     },
     {
       title: "安全培训服务",
-      description: "为技术人员、管理层及全员提供定制化网络安全意识与实操培训，包括红蓝对抗演练、社工钓鱼模拟、应急响应演练等，提升组织整体安全能力，构建“人防”防线。",
+      description: "为技术人员、管理层及全员提供定制化网络安全意识与实操培训，包括红蓝对抗演练、社工钓鱼模拟、应急响应演练等，提升组织整体安全能力，构建\"人防\"防线。",
       link: "#security-training",
     },
     {
@@ -91,12 +92,7 @@ export default function ServicesPage() {
         </Container>
       </div>
 
-      {/* 其他内容区域 */}
-      <div className="relative">
-        <Background />
-        <Container className="py-20">
-        </Container>
-      </div>
+      {/* 移除了空的Container - 这是修复的关键 */}
     </div>
   );
 }
