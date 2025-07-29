@@ -1,0 +1,111 @@
+import { BlogLayout } from "@/components/blog-layout";
+
+
+export const blog = {
+  author: { name: "Sevion Xia", src: "/sooua3.png" },
+  date: "2023-08-13",
+  title: "Reallysec 驱动 Intel 安全架构转型，重塑其安全防御体系",
+  description:
+    "通过协助 Intel 集成包括 Splunk、Apache Kafka、Intel Xeon® 与高性能存储在内的多技术栈，Reallysec 协同 InfoSec 团队完成了从“被动监控”向“主动智能防御”的转型。双方不仅解决了可扩展性与平台性能挑战，还将机器学习、流数据处理、系统健康与安全运营有机融合，形成支撑整个安全生态的数据驱动闭环。",
+  image:
+    "/gia_post.png",
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## 关键挑战
+
+Intel 亟需从传统的 PC 驱动型企业转型为数据驱动型企业，在提升数据价值的同时，减少数据的安全脆弱性。
+
+---
+
+## 关键成果
+
+借助 Splunk 和 Apache Kafka 所构建的网络，Intel 推出 Cyber Intelligence Platform（CIP），实现对整个 InfoSec 组织的全面可视化，彻底变革其信息安全管理体系。
+
+以 Splunk 为核心平台，Intel IT 团队构建了全新的 Cyber Intelligence Platform，不仅加快数据分析速度，还通过流数据处理与机器学习释放业务价值。
+
+---
+
+## 战略转型背景
+
+Intel 对全球科技生态的贡献不可低估。
+
+公司持续凭借工程技术为全球数十亿设备以及智能互联基础设施提供安全、计算与连接能力。随着时间推移，Intel 正在从传统 PC 中心的企业转型为数据中心的企业，在不断开发新产品、拓展新市场、探索新客户的同时，也大力革新安全与运营模式。
+
+> 数据就是一切；数据就是核心动力。它驱动着我们的业务、驱动着一切。
+> —— Brent Conran，Intel 首席信息安全官
+
+Conran 指出，从传统行业到原生云行业，数据洞察力是区分成功与失败企业的关键。
+
+这一趋势促使 Intel 的信息安全组织（InfoSec）必须构建并维护一套完善的“纵深防御”策略。团队在网络边界、内部网络、终端、应用程序和数据层等多个层级自动化部署预防与检测机制，以应对其环境中 99% 的安全威胁。
+
+---
+
+## 成果概览
+
+* 从几天或几周缩短至数分钟或数小时，快速检测高级威胁
+* 建立统一协作平台，提升网络安全管理效率
+* 利用流数据处理与机器学习，在安全运营与系统健康等领域创造业务价值
+
+> 通过合理的数据归位和人员能力升级，我们实现了倍增效应。机器学习大幅提升了我们的情报分析深度和速度。
+> —— Brent Conran，首席信息安全官
+
+---
+
+## 精准狩猎“1%”的高级威胁
+
+高级威胁持续激增，且日益复杂。而 Intel 原有的 SIEM 系统难以适应数据增长需求，仅有极少数专家能够操作。
+
+InfoSec 团队提出“狩猎那 1%”的战略，专注于识别最具威胁性的攻击者。这一策略促成了以 **Splunk 与 Apache Kafka** 为核心的 Cyber Intelligence Platform（CIP）建设。
+
+该平台运行于基于 Intel® Xeon® Platinum 处理器的高性能服务器之上，结合 Intel 3D NAND SSD 和 Intel® Optane™ SSD，每日摄取超过 12TB 数据，累计存储量达 15PB。数据由数百个源头流入 Kafka 总线，再进入 Splunk 平台，用户每周发起超过 130 万次搜索。
+
+---
+
+## 英特尔利用数据智能创新追逐 1%
+
+借助 Splunk 平台和数百种第三方工具，Intel InfoSec 团队获得了具备上下文信息的深度可视化界面，并建立起统一的协作操作空间，使整个组织的响应能力显著提升。
+
+团队现在能在数小时甚至数分钟内响应威胁，远快于过去需几天或数周的响应周期。
+
+> 我们看到了平台的潜力，因此不断投入资源去实现它。我们希望 Splunk 成功，因为它有助于我们实现使命。
+> —— Brent Conran
+
+---
+
+## 平台扩展之路
+
+随着 CIP 的成功，更多数据源、使用场景和模型被纳入其中，使用范围扩展到漏洞管理、合规、风险控制等多个团队，对基础设施的性能也提出更高要求。
+
+为实现最佳性能，Intel 的安全架构师与 Splunk 合作，联合制定了基于最新 Intel 技术的参考配置，用于指导计算、内存和存储扩展。
+
+Splunk 与 Intel 正共同分享该平台建设经验，帮助其他企业高效扩展其 Splunk 与 Apache Kafka 架构，将原始数据转化为可执行的业务与安全情报。
+
+---
+
+## 为当下与未来持续赋能
+
+Intel 的 InfoSec 团队正持续扩大对 Splunk 和 Kafka 的使用范围。分析师与数据科学家实时对数据流进行转换、连接、过滤与建模，同时也引入更多机器学习工具，支持从事件响应、运维监控到系统健康与警报编排的全链路能力。
+
+> 我们现在比以往任何时候都更具敏捷性。我们部署了全新的 Splunk 数据湖，现代化了所有工具。通过合理的数据治理与人员再培训，我们创造出安全情报倍增器。
+> —— Brent Conran
+
+---
+
+## 解决方案概览
+
+* **Security（安全分析）**
+* **Observability（可观测性）**
+* **Data Intelligence（数据智能）**
+* **Stream Processing（流数据处理）**
+* **Machine Learning（机器学习赋能）**
+
+---

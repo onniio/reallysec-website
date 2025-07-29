@@ -1,0 +1,104 @@
+import { BlogLayout } from "@/components/blog-layout";
+
+
+export const blog = {
+  author: { name: "Sevion Xia", src: "/sooua3.png" },
+  date: "2023-05-11",
+  title: "Reallysec 赋能西门子数字工业，引领智能化未来",
+  description:
+    "通过引入 Reallysec 的数据可视与智能分析能力，Siemens DI 实现了对产品主数据流、跨 SAP 系统与供应链平台的**全链路可视化与异常自愈能力**。Reallysec 不仅帮助 Siemens 降低了数据延迟与服务成本，更为其客户在 75+ 国家带来了前所未有的透明度与响应速度。",
+  image:
+    "/gia_post.png",
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## 关键挑战
+
+随着业务应用与流程间数据交换量持续增长，**Siemens Digital Industries（西门子数字化工业）** 在其复杂而庞大的系统架构中遇到了**数据延迟与可视性不足的问题**，尤其影响了 SAP 产品主数据同步，进而对业务用户造成了不利影响。
+
+---
+
+## 关键成果
+
+通过引入以 **Splunk Cloud 为核心的可观测性平台**，并结合 Rojo Consultancy 提供的 Confluent Kafka 与 SnapLogic 的 Splunk 插件，Siemens DI 显著降低了数据延迟，同时大幅减少了运营成本、提升了效率与系统可扩展性，并显著改善了客户满意度。
+
+---
+
+## 西门子数字工业流入未来
+
+要实现物理世界与数字世界的无缝连接，必须依赖快速、准确的数据处理。
+
+作为 Siemens AG 的子公司，**Siemens DI 是工业自动化与工业软件的市场领导者**，其解决方案支撑着现代生活的诸多关键场景——从汽车制造、食品配送，到制药、家电和通信设备。全球超 17 万客户依赖 Siemens DI 的软件做出数据驱动的决策，管理工业 IoT 环境下的海量数据。
+
+为了实现全面的数据监控与指标洞察，Siemens DI 引入了 Splunk 及 Rojo 提供的集成应用，以实时追踪关键性能指标（KPI）：
+
+* 包括业务系统每秒数据消费量、消费频率、平台健康状态；
+* 并延伸到支持全球销售办公点的业务 KPI。
+
+这一平台化的可观测性体系，成为 Siemens DI 数据可视化转型的基石。
+
+---
+
+## 成果亮点
+
+* 为分布在 75+ 国家、120+ 个 SAP 系统的客户提升了数据透明度
+* 将千万级产品与价格项的同步时间从数周压缩至**实时**
+* 提升产品可靠性与客户满意度
+
+---
+
+## 前所未有的数据透明度
+
+Siemens DI 推出的产品信息流服务（Product Master Data Streaming, 简称 PMDS）使客户能够处理并消费主数据用于其他系统。但此前 Siemens DI 缺乏对这些数据流的可视化能力，导致错误定位困难，问题可能源自 SAP 系统或集成供应商，最终仍由 Siemens DI 接收服务请求、协助排查。
+
+> 我们最初使用 Splunk Enterprise 监控集成管道与事件驱动平台，记录了二十多个字段的元数据以构建分析面板。**Splunk 带来了前所未有的透明度。**
+> —— Afonso Rodrigues，PMDS 项目公民集成工程师，Siemens DI
+
+由于 Rojo Consultancy 提供的插件，Splunk 平台与 SnapLogic、Kafka 实现无缝集成，使 Siemens DI 能够通过单一视图监控其复杂系统中的多个关键应用。
+
+---
+
+> ETL 流程中的错误难以溯源，而 Splunk 让我们和客户都能快速定位问题，加速解决。
+> —— Thomas Hecht，产品主数据 IT 项目负责人，Siemens DI
+
+---
+
+## 解决方案与产品
+
+* **解决方案：** 可观测性、IT 监控
+* **产品：** Splunk Cloud Platform、Platform-UI
+
+---
+
+## 快速响应性能问题
+
+对于依赖 ETL 工具自动化处理数据的企业而言，数据流的准确性与时效性至关重要。而 Siemens 面临的挑战在于——庞大的数据量在多个系统间的多次转换极易引发问题。
+
+> 当错误发生时，很难判断它来自哪个应用或数据源。Splunk 帮助我们与客户迅速识别问题，加快响应速度。
+> —— Thomas Hecht
+
+同时，Siemens DI 利用 Splunk 平台的洞察能力主动监控性能，在问题影响客户前先行发现并发出告警，确保服务级别协议（SLA）持续合规。
+
+---
+
+## 解锁 IT 之外的创新可能
+
+Splunk 不仅让 IT 团队看见数据，还让业务团队得以深入洞察、主动处理数据问题，避免代价高昂的延迟。
+
+> 下一步，我们计划分析数据内容本身，赋能业务用户而非仅限 IT 技术人员。Splunk 能让业务团队运行任意类型的分析任务，助力我们的业务合作伙伴创造更多价值。
+> —— Hecht
+
+借助 Splunk 与 Rojo，Siemens DI 甚至支持用户“一键重处理”失败任务，并实现按消费计价模式。
+
+> 我们不仅能为客户构建集成流程，还能展示 Splunk 带来的更高价值场景。
+> —— Hecht
+
+---
